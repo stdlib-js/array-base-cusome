@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cusome from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cusome@deno/mod.js';
+import cusome from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cusome@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cusome@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cusome@v0.1.1-deno/mod.js';
 ```
 
 #### cusome( x, n )
@@ -103,7 +103,7 @@ The function supports the following parameters:
 
 ```javascript
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import cusome from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cusome@deno/mod.js';
+import cusome from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cusome@v0.1.1-deno/mod.js';
 
 // Create an array of random values:
 var x = bernoulli( 10, 0.3 );
